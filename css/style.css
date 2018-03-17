@@ -1,0 +1,912 @@
+* {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+li,
+ol {
+    list-style-type: none;
+}
+
+img {
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contentwrapper {
+    width: 100%;
+}
+
+.content {
+    width: 945px;
+    margin: 0 auto;
+    padding: 0px 5px;
+    overflow: hidden;
+
+}
+
+/***************************/
+
+/** top header part start **/
+
+/***************************/
+
+.topheaderpartbg {
+    background-color: #0872b9;
+}
+
+.topheaderpartbody {}
+
+.sitedetails {
+    width: 160px;
+    float: left;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px 0px;
+}
+
+.linkicons {
+    width: 780px;
+    float: left;
+}
+
+.linkicons a {
+    float: right;
+    margin-left: 20px;
+    display: block;
+}
+
+.linkicons a i {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    padding: 10px 0px;
+    transition: all linear .3s;
+}
+
+.linkicons a i:hover {
+    color: #353535;
+}
+
+/***************************/
+
+/** top header part end **/
+
+/***************************/
+
+/***************************/
+
+/** header part start **/
+
+/***************************/
+
+.headerpartbg {}
+
+.headerpartbody {}
+
+.logo {
+    width: 160px;
+    float: left;
+}
+
+.logo img {
+    display: block;
+    padding: 20px 0px;
+}
+
+.nav {
+    width: 780px;
+    float: right;
+}
+
+.nav ul {
+    float: right;
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul li a {
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Oswald', sans-serif;
+    color: #353535;
+    padding: 30px 10px;
+    text-transform: capitalize;
+    transition: all linear .3s;
+}
+
+.nav ul li:last-child a {
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.nav ul li:hover a {
+    color: #0872b9;
+}
+
+/***************************/
+
+/** header part end **/
+
+/***************************/
+
+/***************************/
+
+/*banner part start;*/
+
+/***************************/
+
+.banenrbg {
+    background-image: url(../images/banner-image.png);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banneroverlay {
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+}
+
+.bannerbody {
+    padding: 90px 0px;
+    text-align: right;
+    overflow: hidden;
+}
+
+.bannercontent {
+    float: right;
+    width: 450px;
+}
+
+.bannerbody h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    line-height: auto;
+}
+
+.bannerbody h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    line-height: auto;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.bannerbody p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+    line-height: 24px;
+    float: right;
+    padding-bottom: 30px;
+}
+
+.bannerbody a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding: 10px 25px;
+    border: 1px solid white;
+    float: right;
+    display: block;
+    margin-left: 20px;
+    transition: all linear .3s;
+}
+
+.bannerbody a:hover {
+    background: #0872B9;
+    border: 1px solid #0872B9;
+}
+
+/***************************/
+
+/*banner part end;*/
+
+/***************************/
+
+/***************************/
+
+/*about us part start;*/
+
+/***************************/
+
+.aboutbg {
+    padding-top: 60px;
+}
+
+.aboutbg .aboutbody {}
+
+.aboutbg .aboutbody .leftimage {
+    width: 380px;
+    height: 264px;
+    overflow: hidden;
+    float: left;
+    margin-top: 10px;
+}
+
+.aboutbg .aboutbody .leftimage img {
+    display: block;
+}
+
+.aboutbg .aboutbody .rightcontens {
+    float: left;
+    margin-left: 25px;
+    padding: 40px 0px 0px;
+    width: 540px;
+    margin-top: 10px;
+}
+
+.aboutbg .aboutbody .rightcontens p {
+    font-family: 'Open sans', serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    margin-bottom: 25px;
+    color: #555555;
+}
+
+/***************************/
+
+/*about us part end;*/
+
+/***************************/
+
+/***************************/
+
+/** our services part start **/
+
+/***************************/
+
+.aboutuspartbg {
+    padding: 55px 0px;
+}
+
+.aboutuspartbody {
+    padding: 05px 05px;
+}
+
+.commonheading {
+    position: relative;
+    left: 50%;
+    transform: translateX(-7%);
+    margin-bottom: 30px;
+}
+
+.commonheading h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    color: #353535;
+    text-transform: uppercase;
+}
+
+.underline {
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+}
+
+.aboutuscontentbg {
+    height: 166px;
+    width: 300px;
+    background: #F0F0F0;
+    position: relative;
+    float: left;
+    transition: all linear .3s;
+    margin-top: 50px;
+}
+
+.aboutuscontentbody {
+    padding: 50px 10px 20px 10px;
+    text-align: center;
+}
+
+.abouticon {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border: 2px solid white;
+    background: #F0F0F0;
+    border-radius: 50%;
+    left: 50%;
+    top: -20%;
+    transform: translateX(-50%);
+    transition: all linear .3s;
+}
+
+.abouticoninnercircle {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border: 2px solid white;
+    background: #F0F0F0;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    transition: all linear .3s;
+}
+
+.abouticoninnercircle img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.aboutuscontentbody h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C3F41;
+    text-transform: uppercase;
+}
+
+.aboutuscontentbody p {
+    font-size: 13px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #555555;
+}
+
+.aboutuscontentbody:hover .abouticon {
+    background: #0872b9;
+}
+
+.aboutuscontentbody:hover .abouticoninnercircle {
+    background: #0872b9;
+}
+
+.aboutuscontentbg:hover {
+    box-shadow: 0px 0px 2px black;
+}
+
+/*************************/
+
+/** services part end **/
+
+/*************************/
+
+/*************************/
+
+/** our portfolio part sart **/
+
+/*************************/
+
+.portfoliopartbg {}
+
+.portfoliopartbody {}
+
+.imagerow {
+    float: left;
+}
+
+.marginbottom {
+    margin-bottom: 20px;
+}
+
+.marginleft {
+    margin-left: 20px;
+}
+
+.small {
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+}
+
+.small img {
+    display: block;
+}
+
+.big {
+    width: 220px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.big img {
+    display: block;
+}
+
+.big,
+.small {
+    position: relative;
+}
+
+.overlayimage {
+    position: absolute;
+    background: rgba(0, 0, 0, .6);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all linear .3s;
+}
+
+.overlayimage a {
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    width: 40px;
+    height: 40px;
+    background: #0872b9;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+}
+
+.overlayimage a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%)translateX(-50%);
+
+}
+
+.small:hover .overlayimage {
+    transform: scale(1);
+}
+
+.big:hover .overlayimage {
+    transform: scale(1);
+}
+
+/*************************/
+
+/** our portfolio part end **/
+
+/*************************/
+
+/*************************/
+
+/*our team part*/
+
+/*************************/
+
+.ourteampartbg {
+    padding-top: 60px;
+}
+
+.ourteampartbg .ourteampartbody {}
+
+.ourteampartbg .ourteampartbody .teamdetails {
+    width: 220px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+    transition: all linear .3s;
+    margin-top: 30px;
+}
+
+.ourteampartbg .ourteampartbody .teamdetails .teamimage {
+    display: block;
+    background: #f1f1f1;
+    overflow: hidden;
+    position: relative;
+    height: 273px;
+    width: 220px;
+}
+
+.ourteampartbg .ourteampartbody .teamdetails .teamimage .overlayteam {
+    position: absolute;
+    top: 0;
+    right: -50%;
+    background: rgba(0, 0, 0, .6);
+    text-align: center;
+    height: 100%;
+    width: 40%;
+    transition: all linear .3s;
+    overflow: hidden;
+}
+
+.ourteampartbg .ourteampartbody .teamdetails .teamimage:hover .overlayteam {
+    right: 0;
+}
+
+.ourteampartbg .ourteampartbody .teamdetails .teamimage .overlayteam ul {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ourteampartbg .ourteampartbody .teamdetails .teamimage .overlayteam li {
+    padding-bottom: 15px;
+}
+
+.ourteampartbg .ourteampartbody .teamdetails .teamimage .overlayteam li:last-child {
+    padding: 0;
+}
+
+.ourteampartbg .ourteampartbody .teamdetails .teamimage .overlayteam a {
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+    transition: all linear .3s;
+}
+
+.ourteampartbg .ourteampartbody .teamdetails .teamimage .overlayteam i {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translateX(50%) translateY(-50%);
+}
+
+.ourteampartbg .ourteampartbody .teamdetails .teamimage .overlayteam ul li:hover a {
+    background: #5bc5f4;
+    border: 1px solid #5bc5f4;
+}
+
+.ourteampartbg .ourteampartbody .teamdetails .teamimage .img {
+    display: block;
+    overflow: hidden;
+}
+
+.ourteampartbg .ourteampartbody .teamdetails h5 {
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 24px;
+    font-weight: 600;
+    color: #353535;
+    transition: all linear .3s;
+    text-transform: uppercase;
+
+}
+
+.ourteampartbg .ourteampartbody .teamdetails:hover h5 {
+    color: #0872b9;
+}
+
+.ourteampartbg .ourteampartbody .teamdetails h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    text-transform: capitalize;
+}
+
+/*************************/
+
+/*our team part end*/
+
+/*************************/
+
+/*************************/
+
+/*out testimonial*/
+
+/*************************/
+
+.testimonialbg {
+    padding: 60px 0px;
+}
+
+.testimonialbg .testimonialbody {}
+
+.testimonialbg .testimonialbody .testimonialdetails {
+    width: 460px;
+    text-align: center;
+    float: left;
+    margin-top: 30px;
+}
+
+.testimonialbg .testimonialbody .testimonialdetails .testimonalimage {
+    height: 80px;
+    width: 80px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+
+.testimonialbg .testimonialbody .testimonialdetails .testimonalimage img {
+    display: block;
+}
+
+.testimonialbg .testimonialbody .testimonialdetails .testimonialdescription {
+    padding: 20px;
+    margin-top: 35px;
+    position: relative;
+    background: #f1f1f1;
+}
+
+.testimonialbg .testimonialbody .testimonialdetails .testimonialdescription:after {
+    position: absolute;
+    content: ' ';
+    height: 40px;
+    width: 40px;
+    background: #f1f1f1;
+    top: -3%;
+    left: 50%;
+    transform: translateX(-85%)rotate(45deg)translateY(-50%);
+    z-index: -5;
+
+}
+
+.testimonialbg .testimonialbody .testimonialdetails .testimonialdescription h4 {
+    color: #353535;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 24px;
+    z-index: 5;
+}
+
+.testimonialbg .testimonialbody .testimonialdetails .testimonialdescription p i {
+    color: #5ea3d1;
+}
+
+.testimonialbg .testimonialbody .testimonialdetails .testimonialdescription h5 {
+    color: #555555;
+    font-family: 'Oswald', serif;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.testimonialbg .testimonialbody .testimonialdetails .testimonialdescription p:nth-child(4) {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #555555;
+    font-size: 13px;
+    line-height: 24px;
+    margin-top: 25px;
+}
+
+/*************************/
+
+/*out testimonial end*/
+
+/*************************/
+
+/*************************/
+
+/*details footer start;*/
+
+/*************************/
+
+.upperfooterbg {
+    background-color: #353535;
+    padding: 20px 0px;
+}
+
+.upperfooterbg .upperfooterbody {}
+
+.upperfooterbg .upperfooterbody .column1 {
+    float: left;
+    width: 220px;
+}
+
+.upperfooterbg .upperfooterbody .column1 .flogo {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.upperfooterbg .upperfooterbody .column1 p {
+    color: #f1f1f1;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.upperfooterbg .upperfooterbody .column1 p:nth-child(3) {
+    margin-top: 20px;
+}
+
+/*************************/
+
+/*column2*/
+
+/*************************/
+
+.upperfooterbg .upperfooterbody .column2 {
+    float: left;
+}
+
+.footerheading {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f1f1f1;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.upperfooterbg .upperfooterbody .column2 .contact {
+    width: 100%;
+    padding: 5px 0px;
+    overflow: hidden;
+}
+
+.upperfooterbg .upperfooterbody .column2 .contact .logo {
+    width: 35px;
+    height: 35px;
+}
+
+.upperfooterbg .upperfooterbody .column2 .contact .logo i {
+    color: white;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #5bc5f4;
+    border-radius: 50%;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-25%);
+}
+
+.upperfooterbg .upperfooterbody .column2 .contact .details {
+    float: left;
+    margin-bottom: 5px;
+}
+
+.upperfooterbg .upperfooterbody .column2 .contact p {
+    font-size: 13px;
+    line-height: 24px;
+    margin-left: 5px;
+    color: #f1f1f1;
+    font-family: 'Open sans', sans-serif;
+}
+
+/*************************/
+
+/*column3*/
+
+/*************************/
+
+.column3 {
+    float: left;
+    font-family: 'Open sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.column3 .rightnavs,
+.column3 .leftnavs {
+    float: left;
+}
+
+.column3 .rightnavs ul li,
+.column3 .leftnavs ul li {
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.column3 .rightnavs a,
+.column3 .leftnavs a {
+    color: #f1f1f1;
+    line-height: 24px;
+    transition: all linear .3s;
+}
+
+.column3 .rightnavs ul li:hover a {
+    color: #5bc5f4;
+}
+
+.column3 .leftnavs ul li:hover a {
+    color: #5bc5f4;
+}
+
+/*************************/
+
+/*column4*/
+
+/*************************/
+
+.column4 {
+    width: 300px;
+    float: left;
+}
+
+.column4 .footergallery {
+    overflow: hidden;
+}
+
+.column4 .footergallery .gpart {
+    overflow: hidden;
+}
+
+.column4 .footergallery .gpart .fgimage {
+    height: 90px;
+    width: 90px;
+    float: left;
+    overflow: hidden;
+}
+
+.column4 .footergallery .gpart .fgimage img {
+    display: block;
+}
+
+.fgmarginbottom {
+    margin-bottom: 15px;
+}
+
+.fgmarginleft {
+    margin-left: 15px;
+}
+
+/*************************/
+
+/*details footer end*/
+
+/*************************/
+
+/*************************/
+
+/*footer*/
+
+/*************************/
+
+.footerbg {
+    background: #555555;
+    padding: 15px 0px;
+}
+
+.footerbody {
+    text-align: center;
+}
+
+.footerbody p {
+    color: #f1f1f1;
+    font-size: 13px;
+    font-family: 'Open sans', serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footerbody p span {
+    color: #5ea3d1;
+    text-transform: uppercase;
+}
+
+/*************************/
+
+/*footer end*/
+
+/*************************/
